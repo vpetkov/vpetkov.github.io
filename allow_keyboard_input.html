@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>[draft] Keyboard Input in Fullscreen Safari</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+      body {
+        max-width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>[draft] Keyboard Input in Fullscreen Safari</h2>
+    <p>December 2014 to my astonishment I found out Safari blocks keyboard inputs in fullscreen mode. Ever since September 2013 it turns out for security reasons it is no longer possible to request keyboard support by calling the <code>webkitRequestFullScreen()</code> method with a flag <code>ALLOW_KEYBOARD_INPUT</code>.</p>
+
+    <p>The ability to accept alphanumeric keyboard events in fullscreen mode is considered a security risk by Apple. I don’t really know why. My best guess is that it could allow for websites to mimic system UI and upon entering fullscreen mode to trick users into entering sensitive data.</p>
+
+    <p><a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/ControllingMediaWithJavaScript/ControllingMediaWithJavaScript.html#//apple_ref/doc/uid/TP40009523-CH3-SW13">Safari documentation</a> goes on to explain that the <code>webkitRequestFullscreen()</code> method can only be invoked in response to a user action, such as clicking a button. It cannot be invoked in response to a <code>load</code> event, for example.</p>
+
+    <p>To me this solves the security issue. But today the documentation no longer even mentions <code>ALLOW_KEYBOARD_INPUT</code>. It looks The fullscreen functionality is still part of HTML audio and video.</p>
+
+    <p>There is a real use case as to why we need a fully capable fullscreen API.</p>
+
+    <p>In macOS fullscreen mode was embraced after the success of iPad Apps.</p>
+    <p>CMS, distractions free solutions, parental control, admin panels… I can think of a number of cases where not only keyboard input, but in fact ability to stay locked into fullscreen can enhance greatly the user experience, and even open new markets.</p>
+
+    <p>I’m inviting everyone interested to help, comment, find solutions, and continue the discussion for proper fullscreen support.</p>
+    </p>
+  </body>
+</html>
