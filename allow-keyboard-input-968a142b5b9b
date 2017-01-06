@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.location.replace("http://vpetkov.com/allow_keyboard_input.html");
+    </script>
+  </body>
+</html>
