@@ -3,26 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>[draft] Keyboard Input in Fullscreen Safari</title>
+    <title>Keyboard Input in Fullscreen Safari</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
-    <h2>[draft] Keyboard Input in Fullscreen Safari</h2>
-    <p>December 2014 to my astonishment I found out Safari blocks keyboard inputs in fullscreen mode. Ever since September 2013 it turns out for security reasons it is no longer possible to request keyboard support by calling the <code>webkitRequestFullScreen()</code> method with a flag <code>ALLOW_KEYBOARD_INPUT</code>.</p>
+    <h2>Keyboard Input in Full-screen Safari</h2>
 
-    <p>The ability to accept alphanumeric keyboard events in fullscreen mode is considered a security risk by Apple. I don’t really know why. My best guess is that it could allow for websites to mimic system UI and upon entering fullscreen mode to trick users into entering sensitive data.</p>
+    <p>In most desktop browsers you can view any page in full-screen. <a href="javascript:document.documentElement.webkitRequestFullscreen();">Try it</a> (ESC stops it).
+    <p>In macOS full-screen was embraced system-wide after the success of the iPad. Similar to how iOS apps look full-screen mode is a less distracting way to work on a single task. And especially valuable for small screens. Most apps on a Mac support full-screen mode, including Safari. But there is a way to gain even more screen real estate for browsing - hiding all system UI completely. It's also particularly useful for presentations and screen-sharing.</p>
 
-    <p><a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/ControllingMediaWithJavaScript/ControllingMediaWithJavaScript.html#//apple_ref/doc/uid/TP40009523-CH3-SW13">Safari documentation</a> goes on to explain that the <code>webkitRequestFullscreen()</code> method can only be invoked in response to a user action, such as clicking a button. It cannot be invoked in response to a <code>load</code> event, for example.</p>
+    <p>In Safari full screen can be initiated by calling the <code>webkitRequestFullscreen()</code> method as I demonstrated above.</p> Actually the full-screen functionality is meant for video. In <a href="https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/ControllingMediaWithJavaScript/ControllingMediaWithJavaScript.html#//apple_ref/doc/uid/TP40009523-CH3-SW13">Safari documentation</a> full-screen is still listed under HTML5 Audio and Video.
+    <p>Despite that it was possible to call the <code>webkitRequestFullscreen()</code> method with a flag <code>ALLOW_KEYBOARD_INPUT</code>. At least until September 2013.</p>
 
-    <p>To me this solves the security issue. But today the documentation no longer even mentions <code>ALLOW_KEYBOARD_INPUT</code>. It looks The fullscreen functionality is still part of HTML audio and video.</p>
+    <p>The ability to accept alphanumeric keyboard events in full-screen mode is considered a security risk by Apple. My best guess is that it could allow for websites to mimic system UI and in full-screen to trick users into entering sensitive data.</p>
 
-    <p>There is a real use case as to why we need a fully capable fullscreen API.</p>
+    <p>The above mentioned documentation goes on to explain that the <code>webkitRequestFullscreen()</code> method can only be invoked in response to a user action, such as clicking a button. It cannot be invoked in response to a <code>load</code> event, for example.</p>
 
-    <p>In macOS fullscreen mode was embraced after the success of iPad Apps.</p>
-    <p>CMS, distractions free solutions, parental control, admin panels… I can think of a number of cases where not only keyboard input, but in fact ability to stay locked into fullscreen can enhance greatly the user experience, and even open new markets.</p>
+    <p>This should solve any security concerns. But <code>ALLOW_KEYBOARD_INPUT</code> is no longer even mentioned in the documentation. It looks like the full-screen functionality in Safari is after all intended to stay as part of HTML Audio and Video. Pitty because I think there are use cases calling for fully capable full-screen API.</p>
 
-    <p>I’m inviting everyone interested to help, comment, find solutions, and continue the discussion for proper fullscreen support.</p>
-    </p>
+    <p>Curiously in <a href="https://developer.apple.com/safari/technology-preview/">Safari Technology Preview</a> - Apple's beta version of Safari for developers keyboard input works in full-screen without any flags needed to be passed.</p>
+
+    <p>It could just be one of those lingering issues in Apple's ecosystem. I've raised a couple of bugs about it. And I'm inviting everyone interested in the topic to help, comment, find solutions, and continue the discussion for proper full-screen support.</p>
+
+    <hr>
+    <p>December 2016,<br /><a href="http://vpetkov.com">Veselin Petkov</a></p>
   </body>
 </html>
