@@ -21,6 +21,6 @@ a:hover {
   background-color: #eee;
 }
 
-h1, h2, h3, h4, h5 {
+h4, h5 {
   -webkit-margin-before: 3em;
 }
