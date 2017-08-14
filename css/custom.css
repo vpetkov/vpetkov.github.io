@@ -1,11 +1,8 @@
 body {
+  background-color: #eee;
   max-width: 720px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
-  padding-top: 2em;
-  padding-bottom: 2em;
 }
 
 a:visited,
