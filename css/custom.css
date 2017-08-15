@@ -68,3 +68,11 @@ h4, h5 {
   font-family: monospace;
   color: darkblue;
 }
+
+footer {
+  margin-top: 6em;
+  margin-bottom: 4em;
+  font-size: 0.83em;
+  text-align: center;
+  color: #aaa;
+}
