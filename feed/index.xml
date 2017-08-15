@@ -6,6 +6,13 @@
     <link>http://vpetkov.com</link>
     <description>Veselin Petkov's Blog</description>
     <item>
+      <title>One Day</title>
+      <link>http://vpetkov.com/one_day.html</link>
+      <guid>http://vpetkov.com/one_day.html</guid>
+      <pubDate>Sun, 15 Aug 2017 12:00:00 GMT</pubDate>
+      <description>An excerpt from a favorite book.</description>
+    </item>
+    <item>
       <title>Wool Socks</title>
       <link>http://vpetkov.com/wool_socks.html</link>
       <guid>http://vpetkov.com/wool_socks.html</guid>
