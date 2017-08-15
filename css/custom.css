@@ -7,6 +7,12 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
+@font-face {
+  font-family: "SF Mono";
+  font-size: medium;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sfmono-regular-webfont.woff");
+}
+
 /* Use system fonts (Apple centric). */
 html {
   font-family: "San Francisco", -apple-system, "BlinkMacSystemFont", "droid-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -65,6 +71,6 @@ h4, h5 {
 }
 
 .comment {
-  font-family: monospace;
+  font-family: "SF Mono", monospace;
   color: darkblue;
 }
