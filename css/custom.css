@@ -1,9 +1,15 @@
 /* custom.css - Style for vpetkov.com
  * github.com/vpetkov/vpetkov.github.io/blob/master/css/custom.css */
 
+/* San Francisco Webfont 🤤 */
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
 /* Use system fonts (Apple centric). */
 html {
-  font-family: -apple-system, "BlinkMacSystemFont", "droid-sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "San Francisco", -apple-system, "BlinkMacSystemFont", "droid-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Moderately sized max width centered in the middle */
@@ -56,4 +62,9 @@ h3 {
 h4, h5 {
   margin-top: 3em;
   margin-bottom: 1em;
+}
+
+.comment {
+  font-family: monospace;
+  color: darkblue;
 }
