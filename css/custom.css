@@ -2,10 +2,10 @@
  * github.com/vpetkov/vpetkov.github.io/blob/master/css/custom.css */
 
 /* San Francisco Webfont 🤤 */
-@font-face {
-  font-family: "San Francisco";
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
+/* @font-face { */
+/*   font-family: "San Francisco"; */
+/*   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); */
+/* } */
 
 /* Use system fonts (Apple centric). */
 html {
