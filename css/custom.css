@@ -65,7 +65,8 @@ h4, h5 {
 }
 
 /* Pale gray centered text
- * to be used in conjunction with <small> */
+ * works well when used in
+ * conjunction with <small> */
 footer {
   margin-top: 6em;
   margin-bottom: 4em;
