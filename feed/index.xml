@@ -6,32 +6,11 @@
     <link>http://vpetkov.com</link>
     <description>Veselin Petkov's Blog</description>
     <item>
-      <title>One Day</title>
-      <link>http://vpetkov.com/one_day.html</link>
-      <guid>http://vpetkov.com/one_day.html</guid>
-      <pubDate>Sun, 15 Aug 2017 12:00:00 GMT</pubDate>
-      <description>An excerpt from a favorite book.</description>
-    </item>
-    <item>
-      <title>Wool Socks</title>
-      <link>http://vpetkov.com/wool_socks.html</link>
-      <guid>http://vpetkov.com/wool_socks.html</guid>
-      <pubDate>Sun, 15 Jan 2017 12:00:00 GMT</pubDate>
-      <description>As I'm reloading My Orders page on Amazon in hope that the delivery date for the socks I ordered will change I'm reminded I haven't written anything in awhile. So let me tell you all about wool socks and my recently found obsession with them.</description>
-    </item>
-    <item>
-      <title>Keyboard Input in Full-screen Safari</title>
-      <link>http://vpetkov.com/allow_keyboard_input.html</link>
-      <guid>http://vpetkov.com/allow_keyboard_input.html</guid>
-      <pubDate>Sun, 25 Dec 2016 12:00:00 GMT</pubDate>
-      <description>I revisit my old post about keyboard input in full-screen mode Safari and why is it considered a security risk by Apple.</description>
-    </item>
-    <item>
-      <title>Vertical Video</title>
-      <link>http://vpetkov.com/vertical_video.html</link>
-      <guid>http://vpetkov.com/vertical_video.html</guid>
-      <pubDate>Sun, 30 Oct 2016 12:00:00 GMT</pubDate>
-      <description>Allow me to explain why vertical video isn't bad.</description>
+      <title>Update</title>
+      <link>http://vpetkov.com/index.html</link>
+      <guid>http://vpetkov.com/index.html#Update+Site+on+Jekyll</guid>
+      <pubDate>Tue, 14 Nov 2017 12:00:00 GMT</pubDate>
+      <description>Website was migrated to Jekyll.</description>
     </item>
   </channel>
 </rss>
