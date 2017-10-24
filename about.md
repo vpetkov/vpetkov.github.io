@@ -4,15 +4,19 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<br/>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+**I like nice things.**  
+*I don't like to compromise.*
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**I hate complicated stuff.**  
+*This website is hosted with GitHub Pages. It's generated with [Jekyll](https://github.com/jekyll/jekyll). The layout is slightly customized [Minima Theme](https://github.com/jekyll/minima).*
 
+**English is not my first language.**  
+*I live in Sofia, Bulgaria.*
 
-[jekyll-organization]: https://github.com/jekyll
+**I like to travel.** I like airports.  
+*I like road trips even more. And I like to take pictures.*
+
+**I work for [Fidor.com](https://www.fidor.com/).** It's in Munich.  
+*I like Bavaria. I think they make the best beer in the world.*
