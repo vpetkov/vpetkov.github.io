@@ -15,8 +15,15 @@ a {
   }
 }
 
+/**
+ * Posts
+ */
 .post-header {
   margin-bottom: 40px;
+}
+
+.post-title {
+  text-align: center;
 }
 
 .post-content {
@@ -28,13 +35,6 @@ a {
     margin-top: -20px;
     margin-bottom: 40px;
   }
-}
-
-/**
- * Posts
- */
-.post-title {
-  text-align: center;
 }
 
 /**
