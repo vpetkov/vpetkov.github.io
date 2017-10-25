@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="home">
+  {{ content }}
+
+  <!-- <ul class="post-list"> -->
+  <!--   {% for post in site.posts %} -->
+  <!--     <li> -->
+  <!--       <span class="post-meta">{{ post.date | date: site.minima.date_format }}</span> -->
+
+  <!--       <h2> -->
+  <!--         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
+  <!--       </h2> -->
+  <!--     </li> -->
+  <!--   {% endfor %} -->
+  <!-- </ul> -->
+
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: site.minima.date_format %}
+    {% if currentdate != date %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <span class="post-meta">{{ currentdate }}</span>
+      <ul class=post-list>
+      {% assign date = currentdate %}
+    {% endif %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>
+
