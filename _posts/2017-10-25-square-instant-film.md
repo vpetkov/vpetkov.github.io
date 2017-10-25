@@ -22,4 +22,4 @@ The new Instax Square film costs 10 EUR for a pack of ten --- same as Instax Min
 I know, I know --- apples and oranges. I'm just excited that I will be able to print square pictures from my iPhone. With that out of the way, I'll say it again --- **No single thing on this Earth is cooler than [the way a Polaroid SX-70 Land Camera opens up](https://www.youtube.com/watch?v=Lo_1pyQ7xvc&t=53s).**
 
 <br/>
-*P.S. This post was more or less a response to a message Drago sent me on Facebook on October 15 (2017). I still haven't replied --- Sorry about that, Drago. I loved you photographs. The last one, with the building and the tree branch out of focus in the foreground is my favorite, and a signature Drago.*
+*P.S. This post was more or less a response to a message Drago sent me on Facebook on October 15 (2017). I still haven't replied --- Sorry about that, Drago. I loved your photographs. The last one, with the building and the tree branch out of focus in the foreground is my favorite, and a signature Drago.*
