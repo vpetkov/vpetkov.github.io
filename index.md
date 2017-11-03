@@ -5,6 +5,6 @@
 layout: home
 ---
 
-## I regularly erase content from this website. This is what's left.
-
+I try to blog here. But any old content is probably erased. So enjoy what's left.
+<br/>
 <br/>
