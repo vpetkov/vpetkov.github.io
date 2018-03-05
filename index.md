@@ -4,7 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-I try to blog here. But any old content is probably erased. So enjoy what's left.
-<br/>
-<br/>
