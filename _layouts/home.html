@@ -4,18 +4,6 @@ layout: default
 <div class="home">
   {{ content }}
 
-  <!-- <ul class="post-list"> -->
-  <!--   {% for post in site.posts %} -->
-  <!--     <li> -->
-  <!--       <span class="post-meta">{{ post.date | date: site.minima.date_format }}</span> -->
-
-  <!--       <h2> -->
-  <!--         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> -->
-  <!--       </h2> -->
-  <!--     </li> -->
-  <!--   {% endfor %} -->
-  <!-- </ul> -->
-
   {% for post in site.posts %}
     {% assign currentdate = post.date | date: site.minima.date_format %}
     {% if currentdate != date %}
@@ -32,27 +20,5 @@ layout: default
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
 
-  <span class="post-meta">External Links</span>
-  <ul class=post-list>
-    <li>
-      <h2>
-        <a class="post-link" href="https://github.com/vpetkov/Terminal">Configuration Files I Use with Apple Terminal</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a class="post-link" href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">A Note from Tim Pope about Git Commit Messages</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a class="post-link" href="https://support.apple.com/en-us/HT201255">Startup Key Combinations for Mac</a>
-      </h2>
-    </li>
-    <li>
-      <h2>
-        <a class="post-link" href="https://alexplescan.com/posts/2016/06/14/using-san-francisco-mono-typeface-before-mac-os-sierra-released/">How to Use the San Francisco Mono Typeface</a>
-      </h2>
-    </li>
-  </ul>
+  {% include links.html %}
 </div>
