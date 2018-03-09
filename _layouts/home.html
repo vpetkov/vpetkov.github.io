@@ -8,7 +8,7 @@ layout: default
     {% assign currentdate = post.date | date: site.minima.date_format %}
     {% if currentdate != date %}
       {% unless forloop.first %}</ul>{% endunless %}
-      <span class="post-meta">Posts from {{ currentdate }}</span>
+      <p class="home-meta">Posts from {{ currentdate }}</p>
       <ul class=post-list>
       {% assign date = currentdate %}
     {% endif %}
