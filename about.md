@@ -17,6 +17,3 @@ permalink: /about/
 
 **I like to travel.** I like airports.  
 *I like road trips even more. And I like to take pictures.*
-
-**I work for [Fidor.com](https://www.fidor.com/).** It's in Munich.  
-*I like Bavaria. I think they make the best beer in the world.*
