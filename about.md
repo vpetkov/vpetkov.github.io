@@ -16,4 +16,4 @@ permalink: /about/
 *I live in Sofia, Bulgaria.*
 
 **I like to travel.** I like airports.  
-*I like road trips even more. And I like to take pictures.*
+*I like road trips even more. And I like to take pictures.* 
