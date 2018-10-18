@@ -50,7 +50,8 @@ Merino wool is a miracle.
 I'm a huge fan of Buffs. I also switched to mostly wool socks, even in the summertime. And recently I started wearing wool t-shirts as well.  
 `...`
 
-I don't own a TV. I'm proud to say that statement is valid since 2007.
+I don't own a TV. I'm proud to say that statement is valid since 2007.  
+`...`
 
 Finally, people say I'm friendly -- you can contact me by sending an email to something at vpetkov.com.
 
