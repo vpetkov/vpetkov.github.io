@@ -28,7 +28,7 @@ During the next five years I learned that a well defined organizational structur
 ### Quality is a point of view.
 
 Ten years later...  
-`...`
+...
 
 [Back to the homepage](/)
 
