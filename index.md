@@ -12,7 +12,7 @@ For the longest time this website had heavy focus on my photography. I still lov
 
 I want to be helpful and informative but writing on the internet is perhaps the most discouraging thing to do.
 
-For now take me at my word when I say people find me friendly. Read more [about me](/about) or sending me an email to something at vpetkov.com.
+For now take me at my word when I say people find me friendly. Read more [about me](/about) or send me an email to something at vpetkov.com.
 
 This website is made with GitHub Pages.  
 (2005 -- 2019) Sofia, Bulgaria.
