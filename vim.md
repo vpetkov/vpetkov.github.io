@@ -13,6 +13,8 @@ layout: default
 
 [Homebrew's vim](/vim-brew.html)
 
+[Ubuntu's vim](/vim-deb.html)
+
 `brew search vim`
 
 ```
