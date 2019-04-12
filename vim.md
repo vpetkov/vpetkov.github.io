@@ -101,6 +101,8 @@ To update/remove packages simply `update` or `deinit` the git module
 [https://github.com/ctrlpvim/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)  
 [https://github.com/ajh17/VimCompletesMe](https://github.com/ajh17/VimCompletesMe)  
 
+[git@github.com:k0kubun/vim-open-github.git](git@github.com:k0kubun/vim-open-github.git)
+
 # &nbsp;
 
 ## Configuring packages
