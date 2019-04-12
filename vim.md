@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Vim for nubes
+# Vim for noobs
 ## session from the April offsite 2019
 
 # &nbsp;
