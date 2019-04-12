@@ -9,9 +9,9 @@ layout: default
 
 ## Install Vim
 
-[Apple's vim](/apple-vim.html)
+[Apple's vim](/vim-apple.html)
 
-[Homebrew's vim](/brew-vim.html)
+[Homebrew's vim](/vim-brew.html)
 
 `brew search vim`
 
