@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-Veselin's blog.
+Veselin's page.
 ===============
 
 I am currently the Head of Project management at <span style="color:#FF5A02;font-weight:bold;">Dext</span>.
